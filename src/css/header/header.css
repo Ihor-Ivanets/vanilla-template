@@ -1,4 +1,11 @@
+.page-header-container {
+  display: flex;
+  align-items: center;
+  column-gap: 90px;
+}
+
 .navigation {
+  flex-grow: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,6 +17,14 @@
   line-height: 1.11;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  fill: transparent;
+  stroke: #fd9222;
+  margin-left: 4px;
 }
 
 .menu {
@@ -30,4 +45,23 @@
 .menu-link:hover,
 .menu-link:focus {
   color: #fd9222;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.social-list-link {
+  display: inline-block;
+  line-height: 0;
+  stroke: #111;
+  fill: #fff;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  stroke: #fd9222;
 }
