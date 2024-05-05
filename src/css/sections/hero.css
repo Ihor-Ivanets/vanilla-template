@@ -9,7 +9,7 @@
       rgba(30, 24, 35, 0.4),
       rgba(30, 24, 35, 0.4)
     ),
-    url('../img/hero/chocolate-bg.jpg');
+    url('./img/hero/chocolate-bg.jpg');
   background-size: cover;
 }
 
