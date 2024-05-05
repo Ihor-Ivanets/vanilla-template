@@ -1,0 +1,54 @@
+.ingredients {
+  padding: 50px 0;
+}
+
+.ingredients-title {
+  max-width: 411px;
+  margin: 0 auto 28px auto;
+}
+
+.ingredients-text {
+  max-width: 486px;
+  margin: 0 auto 50px auto;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.ingredients-list {
+  display: flex;
+  column-gap: 19px;
+}
+
+.ingredients-list-item {
+  width: calc((100% - 19px * 3) / 4);
+  padding: 28px 32px;
+  border-radius: 15px;
+}
+
+.ingredients-list-item:nth-child(4n + 1) {
+  color: #fff;
+  background-color: #fd9222;
+}
+
+.ingredients-list-item:nth-child(4n - 1) {
+  color: #fff;
+  background-color: #1e1823;
+}
+
+.ingredients-list-item:nth-child(even) {
+  border: 1px solid #fd9222;
+}
+
+.ingredients-list-img {
+  margin-bottom: 36px;
+}
+
+.ingredients-list-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
