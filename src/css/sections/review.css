@@ -1,5 +1,6 @@
 .review {
   padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .review-title {
@@ -50,6 +51,7 @@
   display: block;
   min-width: 222px;
   height: 50px;
+  background-color: transparent;
   margin: 0 auto;
   border: 1px solid #fd9222;
   border-radius: 100px;

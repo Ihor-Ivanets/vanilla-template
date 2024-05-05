@@ -14,7 +14,7 @@
 
 .menu {
   display: flex;
-  column-gap: 9px;
+  column-gap: 24px;
 }
 
 .menu-link {
