@@ -1,9 +1,10 @@
-.hero-container {
+.hero {
   max-width: 1200px;
   margin: 0 auto;
   border-radius: 30px;
   padding: 381px 72px 40px;
   background-color: #1e1823;
+  margin-bottom: 72px;
 }
 
 .hero-title {
