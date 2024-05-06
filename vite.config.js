@@ -30,6 +30,10 @@ export default defineConfig(({ command }) => {
       injectHTML(),
       FullReload(['./src/**/**.html']),
       ViteImageOptimizer({
+        svg: {
+          multipass: false,
+          plugins: [],
+        },
         png: {
           quality: 85,
         },
