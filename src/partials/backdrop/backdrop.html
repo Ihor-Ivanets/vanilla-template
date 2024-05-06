@@ -1,0 +1,92 @@
+<div class="backdrop">
+  <div class="modal">
+    <button class="modal-btn-close" type="button">
+      <svg class="modal-btn-close-icon" width="28" height="28">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="modal-text">
+      LEAVE A REVIEW ABOUT <span class="accent-color">OUR CHOCOLATE</span>
+    </p>
+    <form class="modal-form">
+      <div class="modal-form-field-wrapper">
+        <label class="modal-form-field-label" for="user-first-name">Name</label>
+        <div class="modal-form-input-wrapper">
+          <input
+            class="modal-form-input"
+            id="user-first-name"
+            name="user-first-name"
+            type="text"
+            required
+          />
+          <svg class="modal-form-input-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-user"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="modal-form-field-wrapper">
+        <label class="modal-form-field-label" for="user-email">Email</label>
+        <div class="modal-form-input-wrapper">
+          <input
+            class="modal-form-input"
+            id="user-email"
+            name="user-email"
+            type="email"
+            required
+          />
+          <svg class="modal-form-input-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-mail"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="modal-form-field-wrapper">
+        <label class="modal-form-field-label" for="user-tel"
+          >Phone number</label
+        >
+        <div class="modal-form-input-wrapper">
+          <input
+            class="modal-form-input"
+            id="user-tel"
+            name="user-tel"
+            type="tel"
+            required
+          />
+          <svg class="modal-form-input-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-phone"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="modal-form-field-wrapper">
+        <label class="modal-form-field-label" for="user-comment">Comment</label>
+        <div class="modal-form-input-wrapper">
+          <textarea
+            class="modal-form-message"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Enter text"
+          ></textarea>
+        </div>
+      </div>
+    </form>
+    <div class="modal-form-checkbox-wrapper">
+      <input
+        class="modal-form-checkbox visually-hidden"
+        id="privacy-policy"
+        name="privacy-policy"
+        value="true"
+        required
+        type="checkbox"
+      />
+      <label class="modal-form-checkbox-label" for="privacy-policy">
+        <span class="modal-form-own-checkbox">
+          <svg class="modal-form-own-checkbox-icon" width="10" height="10">
+            <use href="./img/icons.svg#icon-checkmark"></use>
+          </svg>
+        </span>
+        I accept the terms and conditions of the
+        <a class="privacy-policy-link">Privacy Policy</a>
+      </label>
+    </div>
+    <button class="modal-form-btn-send" type="submit">Send</button>
+  </div>
+</div>
