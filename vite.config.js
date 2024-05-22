@@ -34,6 +34,9 @@ export default defineConfig(({ command }) => {
           multipass: false,
           plugins: [],
         },
+        webp: {
+          quality: 85,
+        },
         png: {
           quality: 85,
         },

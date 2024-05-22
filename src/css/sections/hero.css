@@ -1,5 +1,4 @@
 .hero {
-  max-width: 375px;
   margin: 0 auto;
   border-radius: 30px;
   padding: 395px 40px 20px;
@@ -9,8 +8,9 @@
       rgba(17, 17, 17, 0.4),
       rgba(17, 17, 17, 0.4)
     ),
-    url('../img/hero/chocolate-bg-mobile.webp');
+    url('/img/hero/chocolate-bg-mobile.webp');
   background-size: cover;
+  background-position: center;
 }
 
 .hero-title {
@@ -115,13 +115,12 @@
         rgba(30, 24, 35, 0.4),
         rgba(30, 24, 35, 0.4)
       ),
-      url('../img/hero/chocolate-bg-mobile@2x.webp');
+      url('/img/hero/chocolate-bg-mobile@2x.webp');
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
     padding: 671px 72px 40px;
     margin-bottom: 40px;
     background-image: linear-gradient(
@@ -165,7 +164,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('../img/hero/chocolate-bg-tablet@2x.webp');
+      url('/img/hero/chocolate-bg-tablet@2x.webp');
   }
 }
 
@@ -188,6 +187,6 @@
         rgba(30, 24, 35, 0.4),
         rgba(30, 24, 35, 0.4)
       ),
-      url('../img/hero/chocolate-bg-desktop@2x.webp');
+      url('/img/hero/chocolate-bg-desktop@2x.webp');
   }
 }
